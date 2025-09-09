@@ -1,4 +1,4 @@
-module github.com/gloowl/simple_crud
+module github.com/gloowl/simple_crud/src
 
 go 1.25.0
 
