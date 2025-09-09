@@ -6,7 +6,8 @@ CREATE TABLE herbs (
     latin_name VARCHAR(255),
     description TEXT,
     is_poisonous BOOLEAN DEFAULT FALSE,
-    image_path VARCHAR(255)
+    image_path VARCHAR(255),
+    created_at TIMESTAMP WITHOUT TIME ZONE DEFAULT NOW()
 );
 -- +goose StatementEnd
 

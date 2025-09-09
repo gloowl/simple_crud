@@ -1,5 +1,5 @@
 build:
-	go build ./src/main.go -o ./bin/crud -trimpath
+	go build -trimpath -o ./bin/herbs-cli ./src 
 run:
 	go run ./src/main.go
 

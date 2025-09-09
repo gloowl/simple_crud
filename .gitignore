@@ -2,3 +2,4 @@ db
 docker-compose.yml
 bin
 .env
+herb-cli.yaml

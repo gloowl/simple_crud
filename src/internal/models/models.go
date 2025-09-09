@@ -1,18 +1,5 @@
 package models
 
-import "time"
-
-// Herb - трава
-type Herb struct {
-	ID          int       `json:"id"`
-	Name        string    `json:"name"`
-	LatinName   string    `json:"latin_name"`
-	Description string    `json:"description"`
-	IsPoisonous bool      `json:"is_poisonous"`
-	ImagePath   string    `json:"image_path"`
-	CreatedAt   time.Time `json:"created_at"`
-}
-
 // Region - регион
 type Region struct {
 	ID          int    `json:"id"`
